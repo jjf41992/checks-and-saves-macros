@@ -1,2 +1,4 @@
 checks-and-saves-macros.zip
 .readme.txt
+.github/workflows/get-version.js
+.github/workflows/main.yml

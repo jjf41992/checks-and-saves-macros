@@ -12,7 +12,7 @@ jobs:
 
     - name: Zip Files
       working-directory: ./
-      run: zip -r ./module.zip ./*
+      run: zip -r ./checks-and-saves-macros.zip ./*
 
     - name: Get Version
       shell: bash
@@ -28,5 +28,5 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.zip, ./module.json'
+        artifacts: './checks-and-saves-macros.zip, ./module.json'
         tag: ${{ steps.get-version.outputs.version }}
