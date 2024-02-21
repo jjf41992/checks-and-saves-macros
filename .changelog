@@ -1,2 +1,7 @@
+1.0.1
+Bug Fix: Fixed a bug where Medicine checks were rolling Intimidation checks instead (PF2E)
+
+Workflow Change: Changed upload method to Github from manual to scripted.
+
 1.0.0
 Initial Release, Requires Monk's TokenBar to function
