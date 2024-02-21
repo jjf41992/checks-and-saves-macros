@@ -1,0 +1,53 @@
+{
+  "id": "checks-and-saves-macros",
+  "title": "Checks & Saves Macros",
+  "version": "1.0.0",
+  "author": "JFoley",
+  "description": "A collection of macros for rolling checks and saves for dnd5e and pf2e.",
+  "url": "https://github.com/jjf41992/checks-and-saves-macros",
+  "download": "",
+  "manifest": "",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-tokenbar",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "JFoley",
+      "discord": "JFoley"
+    }
+  ],
+  "packs": [
+    {
+      "name": "checks-and-saves-macros",
+      "label": "Checks & Saves Macros pf2e",
+      "path": "packs/checks-and-saves-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "checks-and-saves-macros-dnd5e",
+      "label": "Checks & Saves Macros dnd5e",
+      "path": "packs/checks-and-saves-macros-dnd5e",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
