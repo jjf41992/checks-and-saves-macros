@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/jjf41992/checks-and-saves-macros/total.svg)]()
+
 .DESCRIPTION
 
 Checks & Saves Macros is a handy module for saving thows, skill checks, and ability checks macros in dnd5e and pf2e utilizing Monk's Tokenbar.
